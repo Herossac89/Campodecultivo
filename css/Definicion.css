@@ -24,6 +24,9 @@ body {
     padding: 25px;
     font-family: "PT Serif";
     font-size: 35px;
+    display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .txtdefinicion {
@@ -31,10 +34,36 @@ body {
     color: aqua;
 }
 
+.navbar ul {
+display: flex;
+list-style: none;
+gap: 19px ;
+
+}
+
+.navbar ul li a{
+text-decoration: none;
+color: aqua;
+cursor: zoom-in;
+
+}
+
+
+
+
 @media(max-width:600px) {
     body {
         background-color: grey;
     }
+
+.navbar ul {
+    flex-direction: column;
+top: 0;
+right:  0;
+bottom: 0;
+
+}
+
 
     #imagenfondo {
         width: 50%;
