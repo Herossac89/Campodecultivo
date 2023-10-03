@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto+Slab:wght@100&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#imagenfondo {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+body {
+    background: white;
+}
+
+.titulo {
+    text-align: center;
+    background: lightslategrey;
+    color: black;
+    padding: 25px;
+    font-family: "PT Serif";
+    font-size: 35px;
+}
+
+.txtdefinicion {
+    background-color: black;
+    color: aqua;
+}
+
+@media(max-width:600px) {
+    body {
+        background-color: grey;
+    }
+
+    #imagenfondo {
+        width: 50%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        object-fit: cover;
+
+    }
+
+    .titulo {
+        font-size: 15px;
+        text-align: center;
+        background: black;
+        color: aqua;
+    }
+}
+
+@media(min-width:800px) {
+    body {
+        background-color: cadetblue;
+    }
+
+    .titulo {
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
