@@ -1,0 +1,46 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    flex-wrap: wrap;
+    background-color: beige;
+}
+
+.titul{
+    font-size: 45px;
+    color: coral;
+    background-color: black;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.txt1{
+    font-size: 25px;
+    font-family: cursive;
+background-color: azure;
+width: 45%;
+}
+
+.lista1{
+    padding: 18px;
+    margin: 12px;
+    font-size: 25px;
+    list-style: inside;
+}
+.lista1 a{
+    color: brown;
+    text-decoration: double;
+    text-align: center;
+
+}
+
+.imgsss{
+    width: 900px;
+    height: 400px;
+    
+}

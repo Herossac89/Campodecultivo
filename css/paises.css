@@ -1,0 +1,55 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ body{
+    background-color: beige;
+    
+ }
+
+
+
+.casita{
+    display: flex;
+background-color: grey;
+flex-wrap: wrap;
+}
+
+.txt1{
+    color: yellow;
+}
+
+.en_felx2{
+    margin: 15px;
+padding: 15px;
+flex-wrap: wrap;
+color: green;
+}
+
+.en_flex{
+    margin: 10px;
+    flex: 1;
+    min-width: 260px;
+
+}
+
+
+
+.en_flex :first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: red;
+    margin: 20px;
+    margin-bottom: 0px;
+} 
+
+.en_flex div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+
+}
+ 
