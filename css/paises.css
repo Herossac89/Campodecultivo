@@ -3,7 +3,7 @@
 *{
     padding: 0px;
     margin: 0px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: "Oswald";
 }
  body{
     background-color: beige;
@@ -14,12 +14,75 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .casita{
     display: flex;
-background-color: grey;
+background-color: black;
 flex-wrap: wrap;
 }
-
+.en_flex img{
+    width: 75%;
+    height: 30%;
+}
 .txt1{
-    color: yellow;
+    color: black;
+}
+
+.img22{
+    width: 30vw;
+    height: 30vw;
+    
+}
+.titulo {
+    text-align: center;
+    background: lightslategrey;
+    color: black;
+    padding: 25px;
+    font-family: "PT Serif";
+    font-size: 35px;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.titulo {
+    font-size: 15px;
+    text-align: center;
+    background: black;
+    color: aqua;
+}
+
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 19px ;
+    flex-wrap: wrap;
+    
+    }
+
+
+    .navbar ul li a{
+        text-decoration: none;
+        color: aqua;
+        cursor: zoom-in;
+        flex-wrap: wrap;
+        }
+          
+        
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+}
+.img22 img{
+    width: 100%;
+    height: 100%;
+}
+
+.mexicotxt{
+    font-size: 20px;
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+
 }
 
 .en_felx2{
@@ -33,6 +96,7 @@ color: green;
     margin: 10px;
     flex: 1;
     min-width: 260px;
+font-size: 25px;
 
 }
 
@@ -41,7 +105,7 @@ color: green;
 .en_flex :first-child{
     flex: 2;
     padding: 25px;
-    background-color: red;
+    background-color: white;
     margin: 20px;
     margin-bottom: 0px;
 } 
@@ -52,4 +116,12 @@ color: green;
     margin: 20px;
 
 }
- 
+  
+.Contacto a{
+    background-color: beige;
+    color: black;
+    font-size: 30px;
+    gap: 25px;
+    
+      }
+
